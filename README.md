@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Changelog
 
-[Changelog](https://github.com/project-ncl/pnc-web-ui-e2e-test/wiki/Changelog)
+[Changelog](https://github.com/project-ncl/pnc-web-ui-react-e2e/wiki/Changelog)
 
 ## Prerequisites
 
@@ -14,24 +14,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. `NPM` version >= 7
 3. `Prettier`
 
-## Workflows
-
-Contribute using [GitHub flow](https://guides.github.com/introduction/flow/), once new Pull request is created, [GitHub Workflows](https://github.com/project-ncl/pnc-web-ui-e2e-test/tree/main/.github/workflows) are started and jobs consisting of building and testing are executed.
-
-To see more details about scripts added by Create React App, open [documentation/README_CRA.md](./documentation/README_CRA.md)
-
 First prepare project locally:
 
 ```bash
-git clone <yourGitForkUrl> pnc-web-ui-e2e-test
-cd ./pnc-web-ui-e2e-test/
+git clone <yourGitForkUrl> pnc-web-ui-react-e2e
+cd ./pnc-web-ui-react-e2e/
 npm install
 ```
 
-Then choose one of the following options:
+Then start your test by following steps:
 
-**1) Development**
+**1) Deploy the PNC Web UI React to http://localhost:3000/**
+
+**2) Open the cypress GUI**
 
 ```bash
 npx cypress open   # Opens Cypress in the interactive GUI.
 ```
+
+**3) Enjoy it!**
